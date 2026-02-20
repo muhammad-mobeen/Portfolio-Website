@@ -5,13 +5,13 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+
 import { ImBlog } from "react-icons/im";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineCalendar,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -107,12 +107,12 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/muhammad-mobeen/Portfolio-Website"
+                href="https://calendly.com/mobeen360"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <AiOutlineCalendar style={{ fontSize: "1.2em" }} />{" "}
+                Book a Call
               </Button>
             </Nav.Item>
           </Nav>
